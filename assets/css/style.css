@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
+html,
 body {
-    height: 100vh;
-    widows: 100vw;
-    margin: auto;
-    background-image:url('../images/blackbrick.jpg');
-    background-size: repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-image:url('../images/blackbrick.jpg');
 }
-
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,83 +20,46 @@ body {
 .neon-wrapper {
   box-shadow:
   0 0 0.1vw  0.4vw #fff7f7,   
-  0 0 0.4vw  0.6vw #7298e9, 
-  0 0   4vw  0.4vw #330be5,
-  inset 0 0 1.5vw  0.4vw #330be5,
-  inset 0 0 0.4vw  0.2vw #7298e9,
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #2c0be5,
+  inset 0 0 1.5vw  0.4vw #2c0be5,
+  inset 0 0 0.4vw  0.2vw #e97272,
   inset 0 0 0.5vw  0.2vw #fff7f7;
   border-radius: 1.5rem;
 }
 .neon-text {
   font-family:'Bungee Outline', sans-serif;
-  font-size: 4.5em;
+  font-size: 4em;
   color: #ffd8d8;
   padding: 0 3.5rem 0 3.5rem;
   text-shadow: 
   .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  .1vw 0vw   0vw #7298e9, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-  .1vw 0vw  .1vw #7298e9, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-  .1vw 0vw   2vw #7298e9, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  .1vw 0vw   1vw #330be5, .2vw 0vw   1vw #330be5, .4vw 0vw   5vw #330be5, 
-  .1vw 0vw   5vw #330be5, .2vw 0vw  20vw #330be5, .4vw 0vw  10vw #330be5,
-  .1vw 0vw  10vw #330be5, .2vw 0vw  30vw #330be5, .4vw 0vw  10vw #330be5;
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw   5vw #2c0be5, .2vw 0vw  20vw #2c0be5, .4vw 0vw  10vw #2c0be5,
+  .1vw 0vw  10vw #2c0be5, .2vw 0vw  30vw #2c0be5, .4vw 0vw  10vw #2c0be5;
 }
 
-.textlink {
-    color: #330be5;
- text-decoration:none;
- text-shadow: 
-  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  .1vw 0vw   0vw #7298e9, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-  .1vw 0vw  .1vw #7298e9, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-  .1vw 0vw   2vw #7298e9, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  .1vw 0vw   1vw #330be5, .2vw 0vw   1vw #330be5, .4vw 0vw   5vw #330be5, 
-  .1vw 0vw   5vw #330be5, .2vw 0vw  20vw #330be5, .4vw 0vw  10vw #330be5,
-  .1vw 0vw  10vw #330be5, .2vw 0vw  30vw #330be5, .4vw 0vw  10vw #330be5;
+.nav-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
 }
 
-.wrapper1 {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-
-.wrapper2 {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-}
-
-.neon-text1 {
-  font-family:'Bungee Outline', sans-serif;
+.neon {
+  font-family: 'Bungee Outline',sans-serif;
   font-size: 2em;
-  color: #ffd8d8;
-  padding: 0 3.5rem 0 3.5rem;
-  text-shadow: 
-  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  .1vw 0vw   0vw #7298e9, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-  .1vw 0vw  .1vw #7298e9, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-  .1vw 0vw   2vw #7298e9, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  .1vw 0vw   1vw #330be5, .2vw 0vw   1vw #330be5, .4vw 0vw   5vw #330be5, 
-  .1vw 0vw   5vw #330be5, .2vw 0vw  20vw #330be5, .4vw 0vw  10vw #330be5,
-  .1vw 0vw  10vw #330be5, .2vw 0vw  30vw #330be5, .4vw 0vw  10vw #330be5;
+  color: #f25757;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2c0be5;
+  box-shadow: 
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #2c0be5,
+  inset 0 0 1.5vw  0.4vw #2c0be5,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+  width: fit-content;
 }
 
-.neon-text2 {
-  font-family:'Bungee Outline', sans-serif;
-  font-size: 2em;
-  color: #ffd8d8;
-  padding: 0 3.5rem 0 3.5rem;
-  text-shadow: 
-  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  .1vw 0vw   0vw #7298e9, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-  .1vw 0vw  .1vw #7298e9, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-  .1vw 0vw   2vw #7298e9, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  .1vw 0vw   1vw #330be5, .2vw 0vw   1vw #330be5, .4vw 0vw   5vw #330be5, 
-  .1vw 0vw   5vw #330be5, .2vw 0vw  20vw #330be5, .4vw 0vw  10vw #330be5,
-  .1vw 0vw  10vw #330be5, .2vw 0vw  30vw #330be5, .4vw 0vw  10vw #330be5;
-}
