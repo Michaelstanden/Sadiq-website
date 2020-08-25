@@ -5,22 +5,20 @@
 	box-sizing: border-box;
 }
 
-html,
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   display: table;
-  background-image:url('../images/sadiq-hp.jpg');
-  background-size: cover;
+  background-color:black;
+  
 }
 
-.container {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items:center;
+.background-image {
+    background-image: url('../images/sadiq-hp.jpg');
+    background-size:cover;
+    align-items: center;
 }
 
 .heading {
