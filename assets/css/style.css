@@ -12,6 +12,7 @@ body {
   height: 100%;
   display: table;
   background-image: url('../images/blackbrick.jpg'); 
+
 }
 
 .background-image {
@@ -113,7 +114,12 @@ a:hover {
  font-size: 120%;
 }
 
-
+.images {
+    clear: both;
+     line-height: 0;
+     column-count: 3;
+     column-gap: 5px;
+}
 
 
 
