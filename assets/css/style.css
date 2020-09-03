@@ -168,5 +168,18 @@ a:hover {
      color: #FFFFFF;
 }
 
+.info-box {
+    display: inline-flex;
+   clear:both;
+   padding-top: 50px;
+   color: white;
+   border: 3px white solid;
+}
+
+.info-text {
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
 
 
