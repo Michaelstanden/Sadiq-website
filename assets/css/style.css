@@ -108,9 +108,10 @@ li a {
 }
 
 .container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+    margin:auto;
 }
 
 a:hover {
@@ -128,6 +129,44 @@ a:hover {
     border: 3px solid black;
 }
 
+.navbar {
+    justify-content: center;
+    align-content: center;
+    font-size: 1em;
+    flex-direction: column; 
+
+}
+
+.link {
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    background-color: rgba(90, 90, 90, 0.5);    
+}
+
+ ul {
+     list-style-type: none;
+     text-align: center;
+     display: inline-block;
+     color: #ffffff;
+     padding: 0;
+     background-color: transparent;
+}
+
+ li a {
+     font-family: 'Major Mono Display', monospace;
+     color: #FFFFFF;
+     text-align: center;
+     padding: 5px 25px;
+     text-decoration: none;
+     letter-spacing: 3px;
+}
+ li a:hover {
+     background-color: #111;
+     text-decoration: none;
+     color: #FFFFFF;
+}
 
 
 
