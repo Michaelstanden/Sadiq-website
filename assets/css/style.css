@@ -120,6 +120,7 @@ a:hover {
      line-height: 0;
      column-count: 3;
      column-gap: 0px;
+     padding-top:10px;
 }
 
 .clear {
@@ -165,12 +166,11 @@ a:hover {
 }
 
 .info-box {
-    display: inline-flex;
-   clear:both;
-   padding-top: 50px;
-   color: white;
-   border: 3px white solid;
-   margin:30px;
+ clear:both;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-text {
@@ -180,7 +180,8 @@ a:hover {
 }
 
 .group {
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .wrapper {
