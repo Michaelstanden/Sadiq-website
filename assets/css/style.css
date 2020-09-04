@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -63,7 +63,7 @@ body {
   line-height: 2em;
   text-shadow: 0 0 3vw #F40A35;
   display: flex;
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Ramabhadra', sans-serif;
   border: 10px solid, rgba(255, 0, 0, .5);
   padding: 20px;
 }
@@ -152,7 +152,8 @@ a:hover {
 }
 
  li a {
-     font-family: 'Major Mono Display', monospace;
+     font-family: 'Ramabhadra', sans-serif;
+     text-transform: uppercase;
      color: #FFFFFF;
      text-align: center;
      padding: 5px 25px;
@@ -211,7 +212,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Ramabhadra', sans-serif;
     color: #ffffff;
 }
 
