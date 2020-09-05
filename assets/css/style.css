@@ -158,6 +158,8 @@ a:hover {
      background-color: #111;
      text-decoration: none;
      color: #FFFFFF;
+     
+
 }
 
 .info-box {
@@ -188,6 +190,8 @@ a:hover {
   padding-top:20px;
   padding-bottom:20px;
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .neon-wrapper {
@@ -251,12 +255,17 @@ a:hover {
     margin-left: 50px;
     padding:30px;
     clear: both;
-     line-height: 0;
-     column-count: 2;
-     border: solid 2px #ffffff;
+    column-count: 2;
+    border: solid 2px #ffffff;
 }
 
 .about-text {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+  display: inline-block;
+}
+
+.about-text p {
+   clear: both;
+   column-count: 2; 
 }
