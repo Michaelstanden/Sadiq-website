@@ -270,3 +270,14 @@ a:hover {
    clear: both;
    column-count: 2; 
 }
+
+.haram-main {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin: auto;
+    padding: 80px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
