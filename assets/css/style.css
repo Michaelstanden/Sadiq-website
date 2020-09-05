@@ -162,11 +162,12 @@ a:hover {
 
 .info-box {
  clear:both;
-    padding-top: 50px;
+    padding-top: 30px;
     margin: auto;
     justify-content: center;
     align-items: center;
     width: 80%;
+    padding-bottom: 30px;
 }
 
 .info-text {
