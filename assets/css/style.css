@@ -294,3 +294,7 @@ a:hover {
   display: table;
   clear: both;
 }
+
+.sections {
+    padding-bottom: 30px;
+}
