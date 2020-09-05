@@ -255,8 +255,9 @@ a:hover {
     margin-left: 50px;
     padding:30px;
     clear: both;
-    column-count: 2;
+    column-count: 3;
     border: solid 2px #ffffff;
+    height: 100%;
 }
 
 .about-text {
@@ -280,4 +281,17 @@ a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
