@@ -60,13 +60,10 @@ body {
 
 .neon-nav {
   color: #f7f5fa;
-  font-size: 2em;
-  line-height: 2em;
   text-shadow: 0 0 3vw #F40A35;
   display: flex;
   font-family: 'Montserrat', sans-serif;
   border: 10px solid, rgba(255, 0, 0, .5);
-  padding: 20px;
 }
 
  h3 a {
@@ -94,10 +91,6 @@ align-items: center;
 
 .icons {
     padding: 50px;
-}
-
-.nav-item {
-    padding: 20px;
 }
 
 li a {
@@ -131,7 +124,7 @@ a:hover {
 .navbar {
     justify-content: center;
     align-content: center;
-    font-size: 1em;
+    font-size: 100px;
     flex-direction: column; 
 
 }
