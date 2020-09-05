@@ -255,7 +255,7 @@ a:hover {
     margin-left: 50px;
     padding:30px;
     clear: both;
-    column-count: 3;
+    column-count: 2;
     border: solid 2px #ffffff;
     height: 100%;
 }
@@ -288,7 +288,6 @@ a:hover {
   width: 33.33%;
   padding: 10px;
 }
-
 
 .row:after {
   content: "";
