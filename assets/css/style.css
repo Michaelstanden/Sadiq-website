@@ -260,6 +260,7 @@ a:hover {
     clear: both;
      line-height: 0;
      column-count: 2;
+     border: solid 2px #ffffff;
 }
 
 .about-text {
