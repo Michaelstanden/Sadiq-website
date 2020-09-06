@@ -107,6 +107,7 @@ li a {
 
 a:hover {
  font-size: 120%;
+ text-decoration: none;
 }
 
 .images {
@@ -132,8 +133,7 @@ a:hover {
 .link {
     margin: auto;
     justify-content: center;
-    align-content: center;
-    padding: 20px;   
+    align-content: center;  
 }
 
  ul {
@@ -155,7 +155,6 @@ a:hover {
      letter-spacing: 3px;
 }
  li a:hover {
-     background-color: #111;
      text-decoration: none;
      color: #FFFFFF;
 }
@@ -257,7 +256,6 @@ a:hover {
     clear: both;
     column-count: 2;
     border: solid 2px #ffffff;
-    height: 100%;
 }
 
 .about-text {
@@ -298,3 +296,4 @@ a:hover {
 .sections {
     padding-bottom: 30px;
 }
+
